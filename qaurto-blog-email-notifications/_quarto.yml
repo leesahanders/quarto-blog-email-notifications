@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "qaurto-blog-email-notifications"
+  site-url: https://www.myblogexample.io
+  description: "A great sample blog"  
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+      - icon: rss
+        href: index.xml
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+editor: visual
+
