@@ -50,9 +50,7 @@ Send an email.
 New blog post!
 :::
 
-Check out the new blog post, `{r} paste(rss_new$item_title, sep = ", ")`, here: 
-
-`{r} paste(rss_new$item_link, sep = ", ")`
+Check out the new blog post, **`{r} paste(rss_new$item_title, sep = ", ")`**, [here](`{r} paste(rss_new$item_link, sep = ", ")`)
 
 :::
 
