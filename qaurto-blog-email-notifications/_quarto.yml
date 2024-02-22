@@ -3,7 +3,7 @@ project:
 
 website:
   title: "qaurto-blog-email-notifications"
-  site-url: https://www.myblogexample.io
+  site-url: https://colorado.posit.co/rsc/content/1561d39e-977a-4e5c-9e73-857860b3d076/
   description: "A great sample blog"  
   navbar:
     right:
