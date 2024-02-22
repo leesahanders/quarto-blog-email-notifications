@@ -34,8 +34,9 @@ Set up logic to check if conditions have been met to send the email, else stop r
 ```{r}
 if (nrow(rss_new > 0)) {
   # continue
+  print("New posts found")
 } else {
-  stop("no new blog posts, stopping")
+  stop("No new blog posts, stopping")
 }
 ```
 
@@ -49,9 +50,9 @@ Send an email.
 New blog post!
 :::
 
-Check out the new blog post, `{r} item_title`, here: 
+Check out the new blog post, `{r} paste(rss_new$item_title, sep = ", ")`, here: 
 
-`{r} rss_new$item_link`
+`{r} paste(rss_new$item_link, sep = ", ")`
 
 :::
 
